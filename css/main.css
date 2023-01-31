@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;500;600&display=swap");
+/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+}
+*::after {
+  box-sizing: inherit;
+}
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.popup {
+  width: 350px;
+}
+.popup .picker {
+  display: flex;
+  padding: 30px 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+}
+.popup #color-picker {
+  outline: none;
+  border: none;
+  background-color: #5372f0;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.popup .picker-colors {
+  margin: 10px 15px;
+}
+.popup .picker-colors header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popup .picker-colors .clear-all {
+  color: #5372f0;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.popup .picker-colors .all-colors {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popup .picker-colors .color {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 33.3333333333%;
+  margin-bottom: 10px;
+}
+.popup .picker-colors .color .rect {
+  display: block;
+  height: 22px;
+  width: 22px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+.popup .picker-colors .color .value {
+  font-size: 0.96rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */

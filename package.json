@@ -1,0 +1,14 @@
+{
+  "name": "colorpicker",
+  "version": "1.0.0",
+  "description": "color picker extension for browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranav Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
